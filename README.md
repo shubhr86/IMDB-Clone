@@ -26,9 +26,9 @@ To get started with this project, follow these steps:
 ```bash
 git clone https://github.com/shubhr86/movie-finder.git
 
-2. Set Up Your OMDB API Key
+### 2. Set Up Your OMDB API Key
 Replace 'YOUR_OMDB_API_KEY' in the app.js file with your actual OMDB API key. You can get an API key by signing up at OMDB API.
-3. Open the Project
+### 3. Open the Project
 Open the index.html file in your web browser to view the application.
 File Structure
 index.html: The main HTML file for the home page.
