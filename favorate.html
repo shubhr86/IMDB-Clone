@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Movies</title>
+    <!-- Link to Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<!-- Nav Bar Using Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">IMDB Clone</a>
+      <!-- Toggler button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="favorate.html">Favourite</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">My Favourite Movies</h1>
+        <div id="favorites" class="row"></div>
+    </div>
+
+        <!-- Footer content -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="index.html" class="footer-link">Home</a>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p class="footer-text">
+                        Developed by <a href="https://www.linkedin.com/in/shubhr86" class="footer-link">Shubham</a> | Mini project by <a href="https://bit.ly/skConding" class="footer-link">Coding Ninjas</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+      </footer>
+      
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
